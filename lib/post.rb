@@ -5,10 +5,6 @@ class Post
     @title = title
   end
   def author_name
-    if self.author.name == nil
-      nil
-    else
-      self.author_name
-    end
+        
   end
 end
