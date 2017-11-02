@@ -5,6 +5,6 @@ class Post
     @title = title
   end
   def author_name
-    self.author.name || nil
+    defined?(self.author.name) ? self.author.name : nil 
   end
 end
