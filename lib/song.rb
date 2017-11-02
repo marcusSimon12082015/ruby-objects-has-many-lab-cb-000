@@ -5,6 +5,6 @@ class Song
     @name = name
   end
   def artist_name
-    defined?(self.artist.name) ? self.artist.name : nil  
+    defined?(self.artist.name) ? self.artist.name : nil
   end
 end
