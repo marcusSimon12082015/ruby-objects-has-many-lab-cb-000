@@ -1,5 +1,5 @@
 class Artist
-  def initalized(name)
+  def initialized(name)
     @name = name
   end
 end
