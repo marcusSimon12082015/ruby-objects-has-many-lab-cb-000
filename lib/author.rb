@@ -6,10 +6,6 @@ class Author
     @name = name
     @posts = []
   end
-  def name
-    @name
-  end
-
   def posts
     @posts
   end
